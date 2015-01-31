@@ -3,7 +3,7 @@ from datetime import date
 from datetime import timedelta
 
 from django.core.exceptions import ImproperlyConfigured, ValidationError
-from django.test import TestCase
+from unittest import TestCase
 from django.contrib.auth.models import User
 from django.conf import settings
 from django.core import mail
